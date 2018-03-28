@@ -73,8 +73,8 @@ function employers() {
 	}
 }
 employers();
-console.log('mainList');
-console.log('mainList.employers');
+console.log(mainList);
+console.log(mainList.employers);
 
 
 
