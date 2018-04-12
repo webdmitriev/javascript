@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', function() {
 	let tab = document.getElementsByClassName('info-header-tab'),
-			tabContent = document.getElementsByClassName('info-tabcontent'),
-			info = document.getElementsByClassName('info-header')[0];
+		tabContent = document.getElementsByClassName('info-tabcontent'),
+		info = document.getElementsByClassName('info-header')[0];
 
 	function hideTabContent(a) {
 		for (let i = a; i < tabContent.length; i++) {
@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', function() {
 			tabContent[i].classList.add('hide');
 		}
 	}
-	hideTabContent(1)
+	hideTabContent(1);
 
 	function showTabContent(b) {
 		if(tabContent[b].classList.contains('hide')) {
